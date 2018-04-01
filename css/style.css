@@ -1,0 +1,277 @@
+.head{
+	width:100%;
+	height:155px;
+	top:0px;
+	left:0px;
+	background-color:white;
+	/*background-image:url(../image/book.jpg);*/
+	opacity:1px;
+	}
+#footer {
+    color: black;
+    background-color:#B3B6B7;
+    clear: left;
+    text-align:center;
+	top:0px;
+	opacity:1px;
+}
+#footer ul
+{
+	list-style:none;
+	font-size:15px;
+	margin: 05px;
+}
+
+#footer li
+{
+	display:inline-block;
+	margin-left:10px;
+	margin-right:30px;
+	padding: 10px;
+	text-align:center;
+}
+#footer ul li a{
+		width:50px;
+		border-radius:20%;
+		padding:10px 10;
+		display:block;
+		color:#fff;
+}
+#footer ul li:nth-child(1){
+		background: #3b5998;
+}
+#footer ul li:nth-child(2){
+		background: #dd4b39;
+}
+#footer ul li:nth-child(3){
+		background: #00aced;
+}
+#footer a:hover {
+		 background-color:;
+		 border-radius:20%;
+		 
+}
+
+#right-side img{
+		border-radius:50%;
+				width:60%;
+				height:400px;
+				top:0px;
+				left:20px;
+				overflow:hidden;
+				clear:both; 
+				padding:50px;
+}
+#left-side{
+	float: left;
+	width:20%;
+	height:800px;
+	top:155px;
+	left:00px;
+	right:0px;
+	background-color:#AED6F1;
+	opacity:1;
+}
+#left-side a{
+		text-decoration: none;
+		color: black;
+		padding:20px;
+		padding-bottom:1px solid #F5EEF8;
+		}
+#left-side  ul li{
+	background: #F5EEF8;
+	list-style:none;
+	padding: 10px;
+	text-bottom:20px;
+	border-style:dashed;
+    border-width:thin;
+	margin-left:-40px;
+	text-align: center;
+	background-color:#AED6F1;
+	padding:10px;
+	font-family: Times New Roman;
+}
+#left-side li:hover {
+		 background-color: #7FFF00;
+		 border-radius: 20%;
+}
+#left-side ul li:hover>ul{
+display:block;
+}
+#left-side ul ul{
+position: absolute; 
+margin-left:210px;
+top:40%;
+}
+#left-side ul li ul{
+	width:15%;
+	height:10px;
+	line-height:20px;
+	text-align:center;
+	color:white;
+	font-size:18px;
+	display:none;
+}
+
+#right-side{
+	float: right;
+	align: right;
+	width:20%;
+	height:auto;
+	top:155px;
+	left:50px;
+	right:0px;
+	background-color:#C6DBF1;
+	opacity:1;
+}
+#right-side h1{
+		text-align:center;
+		font-family: Times New Roman;
+}
+#right-side ul
+{
+    list-style: square inside url("sqpurple.gif");
+}
+#con{ 
+    background: #F6CED8;
+	
+     
+}
+/*#con img{
+		border-radius: 80%;
+				width:25%;
+				height:300px;
+				top:10px;
+				left:5 px;
+				overflow:hidden;
+				float:left;
+				padding:20px;
+		}*/
+#con table{
+	background-color: #0DF7BD;
+	text-align: center;
+	opacity:05;
+}
+#con center h1 a:hover{
+			 background-color: #7FFF00;
+}
+#con h1{ 
+	text-align: center;
+	font-family: Times New Roman;
+}
+	
+#table{
+	text-align: right;
+	padding:50px;
+	margin:30px;
+	
+}
+#table span input:hover{
+	 background-color:#1FF70D;
+	 opacity:0.5;	 
+}
+body {
+	background-color:#F6CED8;
+}
+/*
+#menu{
+	width: 100%
+	background-color:#0aa;
+	height:80px;
+}
+#menu{
+	width:100%;
+	height:50px;
+	top:100px;
+	left:0px;
+	background-color:#0aa;
+	text-align: center;
+	font-family: "Times New Roman";
+}
+#menu ul li{
+	float:center;
+	margin-top:20px;
+	display:inline-block;
+}
+#menu ul li a{
+	width: 150px; 
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	font-family: Times New Roman;
+}
+#menu a:{
+	background: red;
+}
+#menu ul li ul{
+	background:white;
+}
+*/
+#navbar{
+	width:100%;
+	height:60px;
+	top:150px;
+	left:0px;
+	background-color:#0aa;
+	text-align:center;
+	font-family: "Times New Roman";
+}
+#navbar ul{ 
+	margin:0px; 
+	padding:0px;
+	list-style:none;
+}
+#navbar ul li{ 
+	width:12%;
+	float:center;
+	height:50px;
+	line-height:55px;
+	text-align:center;
+	color:white;
+	font-size:18px;	
+	display:inline-block;
+	position:relative;
+}
+#navbar ul li ul li{
+	width:100%;
+	background-color:#0aa;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	font-size:18px;	
+	opacity:.8;
+}
+#navbar ul li ul{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	font-size:18px;
+}
+#navbar ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+#navbar ul li a:hover{
+background:#7FFF00;
+}
+#navbar ul ul{
+	margin:0px;
+	padding:0px;
+display:none;
+}
+#navbar ul li:hover>ul{
+display:block;
+}
+#navbar ul ul{
+position: absolute; 
+margin-left:0px;
+top:100%;
+}
+
+
+
